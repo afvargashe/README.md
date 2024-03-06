@@ -3,7 +3,7 @@
 import streamlit as st
 import pandas as pd
 import plotly_express as px
-df = pd.read_csv('C:\\Users\\ANDRES VARGAS\\Documents\\TRIPLETEN\\Sprints\\5. Sprint 5\\Proyecto\\README.md\\vehicles_us.csv')
+df = pd.read_csv('vehicles_us.csv')
 st.header('Informe de venta de automóviles')
 build_histogram = st.checkbox("Construir un histograma")
 if build_histogram:
